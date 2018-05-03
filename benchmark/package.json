@@ -1,0 +1,27 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark for @destinationstransfers/js-flow-test",
+  "main": "index.js",
+  "repository": "https://github.com/vypress/benchmark.git",
+  "author": "Aleksey Vyatkin",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "create-html": "^4.1.0",
+    "eslint": "latest",
+    "jest": "^22.1.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint **/*.js --ignore-path .gitignore"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "testEnvironment": "node",
+    "verbose": true,
+    "bail": true
+  },
+  "dependencies": {}
+}

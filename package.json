@@ -1,0 +1,29 @@
+{
+  "name": "js-flow-test",
+  "version": "1.0.0",
+  "description": "Basic test for ES2017, Github flow and Jest knowledge",
+  "main": "index.js",
+  "author": "vyatkin0 <avyatkin@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "jest": "latest"
+  },
+  "engines": {
+    "node": ">=8.7"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint **/*.js --ignore-path .gitignore"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "testEnvironment": "node",
+    "verbose": true,
+    "bail": true
+  },
+    "parserOptions": {
+      "sourceType": "script"
+    }
+}
