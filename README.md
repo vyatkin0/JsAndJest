@@ -1,4 +1,4 @@
-# js-flow-test
+# js-and-jest
 
 Basic test for ES2017, GitHub flow and Jest knowledge
 
