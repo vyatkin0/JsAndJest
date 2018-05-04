@@ -1,9 +1,9 @@
 {
   "name": "benchmark",
   "version": "1.0.0",
-  "description": "Benchmark for @destinationstransfers/js-flow-test",
+  "description": "Benchmark for js-flow-test",
   "main": "index.js",
-  "repository": "https://github.com/vypress/benchmark.git",
+  "repository": "https://github.com/vyatkin0/benchmark.git",
   "author": "Aleksey Vyatkin",
   "license": "MIT",
   "private": true,

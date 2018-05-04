@@ -2,8 +2,6 @@
 
 Basic test for ES2017, GitHub flow and Jest knowledge
 
-This is not a deep ES2017, neither Git or Jest knowledge test. It's just an exercise to show how fast you can integrate into our GitHub development workflow and where your level currently is. We expect that complete exercise will take about 1-3 hours, but no rush, the most important thing is code quality.
-
 ## Definition
 
 The default export of this repository module (`index.js`) returns a function `workersGenerator` that generates an async worker function that returns an integer after some random delay.
@@ -19,8 +17,6 @@ The default export of this repository module (`index.js`) returns a function `wo
 
 Please implement following:
 
-* [ ] Create a Pull Request to this repository to increase test coverage to 100% and particularly testing correctness of throwing errors
-* [ ] Create new benchmark repository where this repository will be a dependency (in your PR version of code)
 * [ ] Implement benchmarks that out of 100 generated workers will find following statistics:
   1. Fastest worker
   2. Average workers delay
@@ -28,4 +24,4 @@ Please implement following:
   4. Maximum workers delay
   5. Maximum workers result value
 * [ ] Your benchmark must output results as HTML formatted file.
-* [ ] Your benchmark repository must have 100% code coverage using Jest.
+* [ ] Your benchmark must have 100% code coverage using Jest.
