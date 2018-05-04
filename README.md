@@ -1,6 +1,6 @@
 # js-and-jest
 
-Basic test for ES2017, GitHub flow and Jest knowledge
+Basic test for ES2017 and Jest knowledge
 
 ## Definition
 
